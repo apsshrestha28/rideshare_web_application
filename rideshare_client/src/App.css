@@ -1,0 +1,174 @@
+
+.container{
+  background-image: url(./style/image/a2.jpg);
+  height:600px;
+  background-size:cover;
+  width: 100%;
+}
+.bgImage{
+  background-color: #13439ba8;
+  width:100%;
+}
+.bgImg{
+  background-color: #13439ba8;
+  width:100%;
+  height:320px;
+}
+.errorImage{
+  background-image: url(./style/image/error.jpg);
+  max-width: 100%;
+  background-repeat: no-repeat;
+  height:460px;  
+}
+
+.headerStyle{
+  text-align: center;
+  color: white;
+  font-family: serif;
+  
+}
+
+.title{
+ color: black;
+ font-family: serif;
+}
+.list{
+  margin-left: 1rem; 
+  font-size: 1.3rem;
+  color: white; 
+  font-family: serif;
+
+}
+.rideRequestForm{
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+.carIcon{
+  color:rgb(243, 177, 53);
+  width: 2rem;
+  height: 2.5rem;
+}
+.appName{
+  font-size: 28px;
+  color: white;
+  margin-left: .3rem;
+}
+.navStyle{
+  float: right;
+  
+}
+
+#buttonSpace{
+  margin-left: 1rem;
+}
+.username{
+  color: white;
+  font-size: 1.4rem;
+  margin-left: 1rem;
+}
+.pfName{
+  font-size: 1.6rem;
+  color: #FFD600;
+  font-family: serif;
+  font-weight: bold;
+}
+.pfList{
+  color: white;
+  margin-left: 1.5rem;
+}
+
+.tableList{
+  font-size: .8rem;
+}
+
+.tableStyle{
+  padding: 22px;
+}
+
+.reviewIcon{
+  font-size: 25px;
+}
+.ratingStyle{
+  margin-left: 2.5rem;
+}
+
+
+.reviewList{
+  padding: 22px;
+  color: white;
+}
+.reviewPerson{
+  margin-left: 1rem;
+  color: #FFD600;
+  font-size: 1.3rem;
+  font-family: serif;
+}
+.reviewForm{
+  font-size: 1.2rem;
+}
+.padding-10{
+  padding: 10px;
+}
+.reviewDate{
+  margin-left: .8rem;
+}
+.reviewBody{
+  margin-left: 2.6rem;
+}
+.driverName{
+  font-size: 1.5rem;
+  color: #FFD600;
+  font-weight: bold;
+  font-family: serif;
+}
+#button-s{
+  margin-top: -1.3rem;
+  margin-left: .3rem;
+}
+#button-rr{
+  margin-left: 11.7rem;
+}
+#sign-style{
+ color: white
+}
+.sign-heading{
+  margin-left: 2rem;
+  padding-top: 1rem;
+}
+.sign-form{
+  padding: 2rem;
+}
+
+#rating {
+  display: flex;
+  flex-direction:row-reverse;
+  float: left;
+
+}
+
+#rating>input {
+  display: none
+}
+
+#rating>label {
+  position: relative;
+  width: 2rem;
+  font-size: 2rem;
+  color: #FFD600;
+  cursor: pointer
+}
+
+#rating>label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0
+}
+
+#rating>label:hover:before,
+#rating>label:hover~label:before {
+  opacity: 1 !important
+}
+
+#rating>input:checked~label:before {
+  opacity: 1
+}
