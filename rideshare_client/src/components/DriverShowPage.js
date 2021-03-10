@@ -92,7 +92,7 @@ class DriverShowPage extends Component {
                     <label htmlFor='1'>☆</label>
                 </div>  
                 
-                <textarea name='body' id='body' cols = '30' rows = '1'></textarea>
+                <textarea name='body' id='body' cols = '30' rows = '1' required= 'required'></textarea>
                 
                 <button className="btn btn-primary btn-sm" id='button-s' type="submit">Submit</button>                               
               </form> 
